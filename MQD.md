@@ -61,7 +61,7 @@ Todo cambio se respalda en GitHub al cerrar cada bloque o sesión (D-20).
 |---|---|---|---|---|
 | 1. Idea | ¿Qué NO quiero y qué más o menos SÍ? | Javier responde; Claude pregunta de a una | `IDEA.md` | Al menos un "no quiero" y un "sí quiero", confirmado por Javier |
 | 2. Descubrimiento | ¿Qué pasa de verdad con documentos reales? | Claude prueba `C:\JV\pruebas`; Javier aclara | `DESCUBRIMIENTO.md`: historia de uso, catálogo de casos difíciles, puntos calientes | Cada documento de prueba clasificado y cada caso difícil con una decisión |
-| 3. Prototipo | ¿Así se ve y así se usa? | OpenCode arma pantallas con datos de ejemplo y sin lógica; Claude revisa con capturas; Javier aprueba | `PROTOTIPO.md` + capturas | Javier aprueba cada pantalla |
+| 3. Prototipo | ¿Así se ve y así se usa, completa? | Claude dibuja bocetos de la **versión final** (todos los juegos), marcando en qué juego llega cada elemento; Javier aprueba. Después OpenCode los construye en WPF con datos de ejemplo y Claude revisa con capturas (D-51) | `PROTOTIPO.md` + capturas | Javier aprueba cada pantalla |
 | 4. Especificación | ¿Qué debe hacer exactamente? | Claude propone; Javier aprueba | `SPEC.md` + `decisiones/` | Lista de "listo para construir" (abajo) |
 | 5. Construcción por juegos | Apertura → medio → final | OpenCode ejecuta bloques; Claude revisa | código + `bloques/` | Cada juego termina en un hito que Javier prueba |
 | 6. Uso real | ¿Aguanta el trabajo diario? | Javier usa; los hallazgos se registran como Casos | `casos/Caso-N.md` | Un mes de uso sin cambios (D-16, D-17) |
