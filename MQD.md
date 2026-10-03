@@ -92,7 +92,7 @@ Todo cambio se respalda en GitHub al cerrar cada bloque o sesión (D-20).
 
 Unidad mínima de trabajo. Una nota en `bloques/B-NNN.md` (plantilla `plantillas/BLOQUE.md`) con propiedades que Obsidian muestra en el tablero y la IA lee como texto estructurado (D-34).
 
-- Tamaño: **como máximo 3 archivos por corrida de OpenCode**. Un bloque con 8 plantillas (B-001) agotó la respuesta del modelo sin escribir nada (`finish: length`); partido en corridas de 2 o 3 archivos, funcionó. Si un bloque necesita más, se divide.
+- Tamaño: **como máximo 3 archivos de código (.cs, .xaml) por corrida de OpenCode**; los de configuración del proyecto (.csproj, .slnx, .props) no cuentan. Un bloque con 8 plantillas (B-001) agotó la respuesta del modelo sin escribir nada (`finish: length`); partido en corridas de 2 o 3 archivos, funcionó. Si un bloque necesita más, se divide.
 - Debe decir: objetivo en una frase, requisitos de `SPEC.md` que cubre, archivos permitidos, archivos prohibidos, criterio de término (pruebas que deben pasar) y casos límite explícitos. Un bloque sin casos límite no se entrega (lección de B-000).
 - Estados: `pendiente` → `en curso` → `en revisión` → `aprobado` | `devuelto` | `bloqueado`.
 
