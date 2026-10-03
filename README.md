@@ -12,3 +12,7 @@ Método personal de Javier para definir qué construir antes de construirlo y pa
 
 - **v1 (Método JA v1.0, septiembre de 2026):** se conserva como archivo en el repositorio privado `jivhdev/mqd-vault`.
 - **v2 (octubre de 2026):** se construye en este repositorio. Las decisiones de su definición están registradas en [Hormiguero › definicion/DECISIONES.md](https://github.com/jivhdev/hormiguero/blob/main/definicion/DECISIONES.md).
+
+## Licencia
+
+[CC BY-SA 4.0](LICENSE): cualquiera puede usar, compartir y adaptar MQD gratis, dando crédito y compartiendo sus cambios con la misma licencia.
