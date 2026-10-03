@@ -1,0 +1,10 @@
+# Libros y documentos reales: nunca se suben
+*.pdf
+
+# Obsidian: estado local de cada equipo
+.obsidian/workspace*.json
+.obsidian/cache
+
+# Sistema
+Thumbs.db
+desktop.ini
