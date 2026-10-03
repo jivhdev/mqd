@@ -51,7 +51,7 @@ C:\JV                         todo lo de Javier, igual en todos sus equipos
     └── .obsidian\            el monorepo se abre como vault de Obsidian
 ```
 
-Fuera de `C:\JV` (y nunca en un repo): libros, referencias y documentos reales. Excepción: `C:\JV\pruebas\` guarda copias de documentos reales para probar en local; está fuera de todo repo (D-10, D-11).
+Fuera de `C:\JV` (y nunca en un repo): libros y referencias. Los documentos reales de prueba viven en `C:\JV\pruebas\`, fuera de todo repo: nunca se suben ni se pegan en una IA (D-10, D-11, D-46).
 
 Todo cambio se respalda en GitHub al cerrar cada bloque o sesión (D-20).
 
@@ -96,7 +96,7 @@ Unidad mínima de trabajo. Una nota en `bloques/B-NNN.md` (plantilla `plantillas
 - Debe decir: objetivo en una frase, requisitos de `SPEC.md` que cubre, archivos permitidos, archivos prohibidos, criterio de término (pruebas que deben pasar) y casos límite explícitos. Un bloque sin casos límite no se entrega (lección de B-000).
 - Estados: `pendiente` → `en curso` → `en revisión` → `aprobado` | `devuelto` | `bloqueado`.
 
-### 5.2 Ciclo de un bloque [PROPUESTA en los puntos 5 y 6]
+### 5.2 Ciclo de un bloque (D-44)
 
 1. Claude escribe el bloque y lo deja `pendiente`.
 2. Claude crea la rama `bloque/B-NNN` y lanza OpenCode con el modelo elegido (5.3).
@@ -106,7 +106,7 @@ Unidad mínima de trabajo. Una nota en `bloques/B-NNN.md` (plantilla `plantillas
 6. Si no: `devuelto` con las correcciones exactas. Al tercer intento fallido con el mismo error, el bloque pasa a Claude.
 7. Al completar un hito, Claude avisa a Javier para que pruebe la app real.
 
-### 5.3 Qué modelo usa OpenCode [PROPUESTA]
+### 5.3 Qué modelo usa OpenCode (D-45)
 
 | Tipo de bloque | Modelo |
 |---|---|
@@ -179,7 +179,7 @@ Javier lo usó en su trabajo real al menos un mes sin hacerle cambios, y funcion
 
 ## 11. Pendiente de este documento
 
-- Aprobación de Javier de las secciones marcadas [PROPUESTA].
+- (Resuelto: secciones [PROPUESTA] aprobadas como D-44 a D-46.)
 - ADR de datos comunes (sección 8).
 - Skill propia de interrogatorio (adaptación de grill-me: una pregunta a la vez, sin subagentes).
 - Plantilla de requisitos no funcionales: unificar "6 o 7 campos" (pendiente heredado de la v1).
